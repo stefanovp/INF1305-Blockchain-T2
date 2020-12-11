@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>-->
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<div class = "login_window window" id = "login_window">
+    <h1>HACKATON</h1>
+    <label for="login">Username Id:</label>
+    <input type="text" id="login" name="login">
+    <button id = "login_button">OK</button>
+</div>
+
+<div class = "validation_popup popup" id = "validation_popup">
+    <div>
+        <h1>You are going to vote for</h1>
+        <span id = "voting_project_name">NAME HERE</span>
+    </div>
+    <div class = "buttons_popup">
+        <button id = "yes_button_popup">Confirm</button>
+        <button id = "no_button_popup">Cancel</button>
+    </div>
+</div>
+
+<div class = "main_window window" id = "main_window">
+    <h2>Chose a project to vote for</h2>
+    <div class = "projects_div">
+        <button class = "project_button">Placeholder</button>
+        <button class = "project_button">Placeholder</button>
+        <button class = "project_button">Placeholder</button>
+        <button class = "project_button">Placeholder</button>
+        <button class = "project_button">Placeholder</button>
+    </div>
+</div>
+
+
+
+<div class = "histogram_window window" id = "histogram_window">
+    <h2>Current voting progress</h2>
+    <div class = "histogram_div">
+        <div class = "single_histogram_div">
+            <div class = "histogram_square"></div>
+            <span class = "project_histogram_name">Placeholder</span>
+        </div>
+        <div class = "single_histogram_div">
+            <div class = "histogram_square"></div>
+            <span class = "project_histogram_name">Placeholder</span>
+        </div>
+        <div class = "single_histogram_div">
+            <div class = "histogram_square"></div>
+            <div class = "project_histogram_name">Placeholder</div>
+        </div>
+        <div class = "single_histogram_div">
+            <div class = "histogram_square"></div>
+            <div class = "project_histogram_name">Placeholder</div>
+        </div>
+        <div class = "single_histogram_div">
+            <div class = "histogram_square"></div>
+            <div class = "project_histogram_name">Placeholder</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
