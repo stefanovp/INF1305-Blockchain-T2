@@ -30,22 +30,23 @@ Para rodar o backend, então, é necessário a montagem de um HyperLedger Fabric
 
 Para rodar o frontend recomendamos o pacote [lite-server](https://www.npmjs.com/package/lite-server) para Node.js. Basta navegar até a pasta WebApp, instalar o pacote com:
 
---bash
+```bash
 npm install lite-server --save-dev
-
+```
 Criar, na mesma pasta, o arquivo "package.json" contendo:
 
---javascript
+```javascript
 {
   "scripts": {
     "dev": "lite-server"
   }
 }
----
+```
 
 E em seguida rodar o app usando:
 
---bash
+```bash
 npm run dev
+```
 
 
